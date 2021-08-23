@@ -48,8 +48,7 @@ public class PointType implements UserType {
 
     @Override
     public void nullSafeSet(PreparedStatement st, Object value, int index,
-                            SharedSessionContractImplementor session)
-            throws HibernateException, SQLException {
+                            SharedSessionContractImplementor session) {
 
     }
 

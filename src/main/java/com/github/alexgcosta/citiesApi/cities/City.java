@@ -36,20 +36,7 @@ public class City {
     @Column(name = "lat_lon", updatable = false, insertable = false)
     private Point location;
 
-    public City() {
-    }
-
-    /**
-     *
-     * @param id
-     * @param name
-     * @param uf
-     * @param ibge
-     * @param geolocation
-     * @param location
-     */
-    public City(final Long id, final String name, final Integer uf, final Integer ibge,
-                final String geolocation, final Point location) {
+    public City(Long id, String name, Integer uf, Integer ibge, String geolocation, Point location) {
         this.id = id;
         this.name = name;
         this.uf = uf;
