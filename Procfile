@@ -1,1 +1,0 @@
- java -jar -Dspring.procfiles.active=heroku build/libs/cities-Api-0.0.1-SNAPSHOT.jar
